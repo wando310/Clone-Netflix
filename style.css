@@ -1,0 +1,208 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    width: 100vw;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.796), rgba(0, 0, 0, 0));
+}
+.header .start{
+   display: flex;
+}
+.header .start img{
+    width: 8rem;
+    margin-left: 5rem;
+}
+.header .and{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .and ul li:last-child{
+margin-right: 5rem;
+}
+.header ul{
+    display: flex;
+    margin: 0px;
+}
+.header ul li{
+    list-style: none;
+    margin: .5rem;
+    font-size: .9rem;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.conteiner-title{
+    height:50rem;
+    display: flex;
+    background-image: url(image/liga.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    transition: all 1s;
+}
+.shadow{
+    height: inherit;
+    width: 70rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin-right: 60rem;
+    background-image: linear-gradient( 90deg, rgb(0, 0, 0) 67%, transparent);
+}
+.conteiner-title-start{
+    padding: 0rem 0rem;
+    text-align: left;
+    margin-left: -100px;
+}
+.conteiner-title-start .title{
+    color: rgb(230, 198, 21);
+    font-size: 3rem;
+    font-weight: 900;
+}
+.conteiner-title-start .top-10{
+    display: flex;
+    align-items: center;
+}
+.conteiner-title-start .top-10 h2{
+    font-weight: 900;
+    margin: 0rem;
+    color: white;
+}
+.conteiner-title-start .start-title{
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    width: 40rem;
+}
+.conteiner-title-start .btns{
+    margin-top: 7rem;
+    display: flex;
+    width: 36rem;
+    justify-content: space-between;
+}
+.conteiner-title-start .btns .btn-assistir, 
+.btn-information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: .3rem;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.conteiner-title-start .btns img{
+    margin-right: 1rem;
+}
+.conteiner-title-start .btns .btn-assistir{
+    font-size: 1.2rem;
+}
+.conteiner-title-start .btns .btn-information{
+    background-color: rgba(148, 147, 147, 0.316);
+    color: white;
+}
+.conteiner-title-and{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.conteiner-photo{
+    background-color: black;
+    padding: 0px 90px;
+    overflow: hidden; 
+}
+.conteiner-photo .title-principal{
+    color: white;
+    font-size: 1.3rem;
+    margin-top: 0px;
+}
+/*SIMILARES*/
+.conteiner-photo .similares .similares-photos{
+    display: flex;
+}
+.conteiner-photo .similares-photos .conteiner-photo-high{
+    transition: all ease .5s;
+}
+.similares-photos .arrow-left,
+.arrow-rigth, 
+.arrow-leftR,
+.arrow-rigthR, 
+.arrow-leftD, 
+.arrow-rigthD{
+    height: 250px;
+    color: white;
+    font-size: 1.2rem;
+    display: none;
+    align-items: center;
+    font-weight: 900;
+    position: absolute;
+    padding: 0rem 1rem;
+}
+.similares-photos .arrow-left:hover,
+ .arrow-rigth:hover,  
+ .arrow-leftR:hover, 
+ .arrow-rigthR:hover,  
+ .arrow-leftD:hover, 
+ .arrow-rigthD:hover{
+    font-size: 2rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+.similares-photos .arrow-rigth,  
+.arrow-rigthR, 
+.arrow-rigthD{
+    margin-left: calc(100vw - 170px);
+}
+.similares-photos .arrow-left, 
+.arrow-leftR, 
+.arrow-leftD{
+    margin-left: -87px;
+}
+.conteiner-photo .high .photo img{
+    width: 500px;
+    height: 250px;
+    margin: 0px 5px;
+}
+.conteiner-photo .high .title{
+    color: white;
+    margin-top: 0px;
+    font-size: 1rem;
+}
+.conteiner-photo .high .photo img:hover{
+    border: solid 6px #fff;
+    width: 550px;
+    height: 270px;
+    cursor: pointer;
+}
+/*RECOMENDADOS*/
+.recomendados, .discover{
+    margin-top: 40px;
+}
+.recomendados .similares-photos{
+   display: flex;
+}
+/*DISCOVER*/
+.discover .similares-photos{
+    display: flex;
+ }
